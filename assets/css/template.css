@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #e7e7e7;
+}
+
+.top_header {
+    background-color: #222326;
+    height: 45px;
+    border-bottom: 1px solid #414346;
+}
+
+.navbar-default {
+    background: none;
+    border: 0;
+}
+
+.navbar-nav>li>a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ccc;
+}
+
+.main_header {
+    height: 235px;
+    background-color: #2d3034;
+}
+
+.logo {
+    height: 133px;
+}
+
+.logo img {
+    height: 100px;
+    width: auto;
+    margin-top: 15px;
+}
+
+.main_nav_border {
+    border-top: 2px solid #27292d;
+    border-left: 2px solid #27292d;
+    border-right: 2px solid #27292d;
+}
+
+.main_nav {
+    height: 45px;
+    border-top: 1px solid #36393d;
+}
+
+.main_nav .nav>li>a:focus,
+.main_nav .nav>li>a:hover {
+    background: #393e45;
+}
+
+.main_nav .navbar-nav>li>a {
+    color: #bebfc1;
+}
+
+.search_area {
+    float: right;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.search_input {
+    background-color: #282b2f;
+    border: 0;
+    width: 140px;
+    height: 32px;
+    font-size: 11px;
+    padding: 10px;
+    outline: 0;
+    color: #fff;
+}
+
+.search_submit {
+    background-color: #3e4145;
+    border: 0;
+    height: 32px;
+    color: #fff;
+    font-size: 11px;
+}
+
+.main_info {
+    background-color: #fff;
+    height: 55px;
+}
+
+.socialarea {
+    background-color: #3382b5;
+    height: 100%;
+    color: #c2dae9;
+}
+
+.main_info .row {
+    margin: 0;
+}
+
+.randompost {
+    line-height: 55px;
+    color: #999;
+}
+
+.randompost a {
+    color: #999;
+    margin-left: 30px;
+}
+
+.socialtxt {
+    line-height: 55px;
+    float: left;
+}
+
+.socialicons {
+    float: right;
+    height: 20px;
+    margin-top: 17px;
+}
+
+.socialicons a {
+    text-decoration: none;
+}
+
+.socialicons img {
+    height: 20px;
+}
+
+section .row {
+    margin: 0;
+}
+
+.widget_tag_cloud .tagcloud {
+    padding-bottom: 20px;
+}
+
+.widget_tag_cloud .tagcloud a,
+.widget_product_tag_cloud .tagcloud a {
+    font-size: 8pt !important;
+    background-color: #94c345;
+    color: #fff;
+    padding: 10px;
+}
+
+.sidebar {
+    background-color: #eee;
+}
+
+.sidebar .widget {
+    border-bottom: 2px solid #e4e4e4;
+}
+
+.maincontent {
+    background-color: #fff;
+}
+
+footer {
+    margin-top: 55px;
+}
+
+.footer_Widgets {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.footer_Widgets .row {
+    display: flex;
+}
+
+.footer_widgets .widget {
+    width: 100%;
+}
+
+.main_footer {
+    height: 55px;
+    background-color: #2d3034;
+    color: #fff;
+    line-height: 55px;
+}
+
+.main_footer_left {
+    float: left;
+}
+
+.main_footer_right {
+    float: right;
+}
+
+.main_footer_scroll {
+    position: absolute;
+    background-color: #e7e7e7;
+    width: 55px;
+    height: 30px;
+    left: 50%;
+    margin-left: -27px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main_footer_scroll img {
+    height: 20px;
+    margin-top: 5px;
+}
