@@ -281,3 +281,22 @@ footer {
 .next_pag {
     float: right;
 }
+
+.post_content {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post_content p img {
+    max-width: 100%;
+}
+
+.post_title_single {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.comments_area {
+    border-top: 1px solid #ccc;
+}
