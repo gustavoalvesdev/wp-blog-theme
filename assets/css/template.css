@@ -304,8 +304,16 @@ footer {
 }
 
 /* Tablet na vertical */
-@media (min-width: 481px) and (max-width: 768px) {
-
+@media (min-width:481px) and (max-width:768px) {
+    .maincontent article {
+        float: none;
+        width: 100%;
+    }
+    .post_item {
+        height: auto;
+        margin: 0;
+        padding-top: 15px;
+    }
 } 
 
 /* Celular na vertical */
@@ -333,5 +341,35 @@ footer {
         width: 380px;
         max-width: 90%;
         height: auto;
+    }
+    .navbar-default .navbar-collapse {
+        border-color: transparent;
+    }
+    .main_info,
+    .search_area {
+        display: none;
+    }
+    .main_nav {
+        height: auto;
+    }
+    .main_nav .navbar-nav {
+        margin: auto;
+    }
+    .maincontent article {
+        float: none;
+        width: 100%;
+    }
+    .maincontent,
+    .sidebar {
+        padding-top: 1px;
+    }
+    .pag {
+        margin: 0;
+        padding: 20px;
+    }
+    .post_item {
+        height: auto;
+        margin: 0;
+        padding-top: 30px;
     }
 }

@@ -8,7 +8,20 @@
         <div class="top_header">
             <nav class="navbar navbar-default">
                 <div class="container">
-                    <div class="collapse navbar-collapse">
+
+                    <div class="navbar-header">
+                        <div class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                            <span class="icon-bar"></span>
+                            <!-- icon-bar -->
+                            <span class="icon-bar"></span>
+                            <!-- icon-bar -->
+                            <span class="icon-bar"></span>
+                            <!-- icon-bar -->
+                        </div>
+                        <!-- navbar-toggle -->
+                    </div>
+                    <!-- navbar-header -->
+                    <div class="collapse navbar-collapse" id="navbar">
                         <?php 
                             if (has_nav_menu('top')) {
                                 wp_nav_menu(array(
